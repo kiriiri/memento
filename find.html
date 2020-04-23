@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,314 +18,164 @@
     <link href="css/memento.css" rel="stylesheet">
 </head>
 
-<body id= "find-padding">
+<body id="find-padding">
     <!-- Tab links -->
     <div class="row">
-      <div class ="col-md-3"></div>
-      <div class="col-md-6">
-        <div class="tab">
-          <button class="eventlinks" onclick="openEvent(event, 'Weddings')">Weddings</button>
-          <button class="eventlinks" onclick="openEvent(event, 'Babyshowers')">Babyshowers</button>
-          <button class="eventlinks" onclick="openEvent(event, 'Birthdays')">Birthdays</button>
-          <button class="eventlinks" onclick="openEvent(event, 'Graduations')">Graduations</button>
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="tab">
+                <button><a href="#Babyshowers" target="_self">Babyshowers</a></button>
+                <button><a href="#Birthdays" target="_self">Birthdays</a></button>
+                <button><a href="#Graduations" target="_self">Graduations</a></button>
+                <button><a href="#Weddings" target="_self">Weddings</a></button>
+            </div>
         </div>
-      </div>
-      <div class ="col-md-3"></div>
+        <div class="col-md-3"></div>
     </div>
-      <!-- Tab links -->
-
+    <!-- Tab links -->
     <!-- Tab content -->
-    <div id="Weddings" class="tabcontent">
-        <h3 class="eventname">Weddings</h3>
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-                <!-- Card Wider -->
-                <div class="card card-cascade wider mt-2 mb-3">
-
-                    <!-- Card image -->
-                    <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="https://www.kevinmullinsphotography.co.uk/wp-content/uploads/2018/08/KM2017-WEBSIZE-MON-768x1024.jpg" alt="Card image cap">
-                        <a href="https://www.kevinmullinsphotography.co.uk/">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!-- Card content -->
-                    <div class="card-body card-body-cascade text-center">
-
-                        <!-- Title -->
-                        <h4 class="card-title"><strong>Kevin Mullins</strong></h4>
-                        <!-- Subtitle -->
-                        <h5 class="blue-text pb-2"><strong>Wedding Photographer</strong></h5>
-                        <!-- Text -->
-                        <p class="card-text">I’m a Wedding Photographer working throughout the UK, Europe and beyond and I tell stories through pictures. I want all my clients to have fun at their wedding, without worrying about the photography.</p>
-
-                        <!-- Linkedin -->
-                        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Twitter -->
-                        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-                        <!-- Dribbble -->
-                        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-
-                    </div>
-
-                </div>
-                <!-- Card Wider -->
-            </div>
-            <div class="col-md-4">
-                <!-- Card Wider -->
-                <div class="card card-cascade wider mt-2 mb-3">
-
-                    <!-- Card image -->
-                    <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="https://images.unsplash.com/photo-1572496458684-fc84d7e01631?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="Card image cap">
-                        <a href="https://albertpalmerphotography.com/portfolio/">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!-- Card content -->
-                    <div class="card-body card-body-cascade text-center">
-
-                        <!-- Title -->
-                        <h4 class="card-title"><strong>Albert Palmer</strong></h4>
-                        <!-- Subtitle -->
-                        <h5 class="blue-text pb-2"><strong>Wedding Photographer</strong></h5>
-                        <!-- Text -->
-                        <p class="card-text">As I mentioned I believe that getting married is the most incredible thing you can do. Giving yourself, completely and wholly to one another and being accepted by them is… well, something that can’t really be described with words…<br>And
-                            that’s where I come in.<br>I live in Bristol, but it doesn’t matter where you’re getting married, I’d love to meet and hear your story.</p>
-                        <!-- Linkedin -->
-                        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Twitter -->
-                        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-                        <!-- Dribbble -->
-                        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-                <!-- Card Wider -->
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-              <!-- Card Wider -->
-              <div class="card card-cascade wider mt-2 mb-3" id= "photogProfile">
-        
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
-                  </div>
-        
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade text-center">
-                      <!-- Title -->
-                      <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
-                      <!-- Subtitle -->
-                      <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
-                      <!-- Text -->
-                      <p class="card-text" id= "photogAbout"></p><br>
-                      <a href="" id= "photogPortfolio">View my portfolio</a><br>
-                      <a href="https://www.w3schools.com/jquery/" id= "photogEmail">Contact Me</a>
-                  </div>
-        
-              </div>
-              <!-- Card Wider -->
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-2"></div>
-        </div>
-    </div>
-
     <div id="Babyshowers" class="tabcontent">
-      <h3 class="eventname">Babyshowers</h3>
-      <div class= "row">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-              <!-- Card Wider -->
-      <div class="card card-cascade wider mt-2 mb-3">
-    
-          <!-- Card image -->
-          <div class="view view-cascade overlay">
-            <img  class="card-img-top" src="images/stacy/alan.jpeg" alt="Card image cap" style="width:500px; height:350px;">
-              <a href="https://www.shawnalanphotography.com/babyshower.html">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-      
-          <!-- Card content -->
-          <div class="card-body card-body-cascade text-center">
-      
-            <!-- Title -->
-            <h4 class="card-title"><strong>Shawn Alan</strong></h4>
-            <!-- Subtitle -->
-            <h5 class="blue-text pb-2"><strong>Photographer</strong></h5>
-            <!-- Text -->
-            <p class="card-text">I am a photographer of all trades but i mostly love doing babyshowers,there's<br>
-              just something about bringing new life to this beautiful world that excites me. One thing about pictures<br>
-              is that it  never changes even if people in it do.
-            </p>
-      
-            <!-- Linkedin -->
-            <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-            <!-- Twitter -->
-            <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-            <!-- Dribbble -->
-            <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-      
-          </div>
-      
-      </div>
-        <!-- Card Wider -->
-          </div>
-          <div class="col-md-4">
-              <!-- Card Wider -->
-      <div class="card card-cascade wider mt-2 mb-3">
-    
-          <!-- Card image -->
-          <div class="view view-cascade overlay">
-            <img  class="card-img-top" src="images/stacy/kiragu.jpeg" alt="Card image cap" style="width:500px; height:350px;">
-            <a href="http://clementkiragu.com/portfolios/maternity-new-born/">
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-      
-          <!-- Card content -->
-          <div class="card-body card-body-cascade text-center">
-      
-            <!-- Title -->
-            <h4 class="card-title"><strong>Clement Kiragu</strong></h4>
-            <!-- Subtitle -->
-            <h5 class="blue-text pb-2"><strong>Photographer</strong></h5>
-            <!-- Text -->
-            <p class="card-text">I think that baby showers are a wonderful way to usher a new born into the world, this<br>
-              to me is the most memorable event in your life and this memories should be kept to be seen for generations<br>
-              to come and if you let me i will help you create this dear moments.
-             </p>
-      
-            <!-- Linkedin -->
-            <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-            <!-- Twitter -->
-            <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-            <!-- Dribbble -->
-            <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-      
-          </div>
-      
-      </div>
-        <!-- Card Wider -->
-          </div>
-          <div class="col-md-2"></div>
-      </div>
-
-      <div class= "row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-            <!-- Card Wider -->
-    <div class="card card-cascade wider mt-2 mb-3">
-  
-        <!-- Card image -->
-        <div class="view view-cascade overlay">
-          <img  class="card-img-top" src="images/stacy/njoki.jpeg" alt="Card image cap" style="width:400px; height:500px;">
-            <a href="https://apeal.co.ke/blog/baby-shower-shoot/">
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-    
-        <!-- Card content -->
-        <div class="card-body card-body-cascade text-center">
-    
-          <!-- Title -->
-          <h4 class="card-title"><strong>Njoki Ndungu</strong></h4>
-          <!-- Subtitle -->
-          <h5 class="blue-text pb-2"><strong>Photographer</strong></h5>
-          <!-- Text -->
-          <p class="card-text">Sometimes you will never know the value of a moment until it becomes a memory. Well, I<br>
-            am here to preserve that moment for you.
-          </p>
-    
-          <!-- Linkedin -->
-          <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-          <!-- Twitter -->
-          <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-          <!-- Dribbble -->
-          <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-    
-        </div>
-    
-    </div>
-      <!-- Card Wider -->
-        </div>
-        <div class="col-md-4">
-          <!-- Card Wider -->
-  <div class="card card-cascade wider mt-2 mb-3">
-  
-      <!-- Card image -->
-      <div class="view view-cascade overlay">
-        <img  class="card-img-top" src="images/stacy/keyame.jpeg" alt="Card image cap" style="width:500px; height:500px;">
-        <a href="http://keyame.co.ke">
-          <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-  
-      <!-- Card content -->
-      <div class="card-body card-body-cascade text-center">
-  
-        <!-- Title -->
-        <h4 class="card-title"><strong>Keyame Group</strong></h4>
-        <!-- Subtitle -->
-        <h5 class="blue-text pb-2"><strong>Photographers</strong></h5>
-        <!-- Text -->
-        <p class="card-text">A baby's an inestimable blessing and bother..right? but we focus more on the<br>
-          blessing part of it, and I'm here to help you keep the memories of your blessing.
-         </p>
-  
-        <!-- Linkedin -->
-        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-        <!-- Twitter -->
-        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-        <!-- Dribbble -->
-        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-  
-      </div>
-  
-  </div>
-    <!-- Card Wider -->
-      </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-            <!-- Card Wider -->
-            <div class="card card-cascade wider mt-2 mb-3" id= "photogProfile">
-      
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+        <h3 class="eventname">Babyshowers</h3>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="images/lorna/man5.jpg" alt="Card image cap">
+                        <a href="https://www.shawnalanphotography.com/babyshower.html">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Warren Wong</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Ksh.20K-30K</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">I am a photographer of all trades but i mostly love doing babyshowers,there's just something about bringing new life to this beautiful world that excites me. One thing about pictures is that it never changes even if people in it do.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
+                    </div>
                 </div>
-      
-                <!-- Card content -->
-                <div class="card-body card-body-cascade text-center">
-                    <!-- Title -->
-                    <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
-                    <!-- Subtitle -->
-                    <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
-                    <!-- Text -->
-                    <p class="card-text" id= "photogAbout"></p><br>
-                    <a href="" id= "photogPortfolio">View my portfolio</a><br>
-                    <a href="https://www.w3schools.com/jquery/" id= "photogEmail">Contact Me</a>
-                </div>
-      
+                <!-- Card Wider -->
             </div>
-            <!-- Card Wider -->
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="images/lorna/man2.jpg" alt="Card image cap">
+                        <a href="http://clementkiragu.com/portfolios/maternity-new-born/">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Clement Kiragu</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Ksh.30K-40K</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">I think that baby showers are a wonderful way to usher a new born into the world, this to me is the most memorable event in your life and this memories should be kept to be seen for generations to come and if you let me i will help you create this dear moments.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-2"></div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="images/lorna/woman1.jpg" alt="Card image cap">
+                        <a href="https://apeal.co.ke/blog/baby-shower-shoot/">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Njoki Ndungu</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Ksh.40K-50K</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">Sometimes you will never know the value of a moment until it becomes a memory. Well, I am here to preserve that moment for you.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
+                    </div>
 
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="images/lorna/man3.jpg" alt="Card image cap">
+                        <a href="http://keyame.co.ke">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Allam Brown</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Above Ksh.50K</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">A baby's an inestimable blessing and bother..right? but we focus more on the blessing part of it, and I'm here to help you keep the memories of your blessing.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3" id="photogProfile">
+
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
+                        <!-- Text -->
+                        <p class="card-text" id="photogAbout"></p>
+                        <br>
+                        <a href="" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="https://www.w3schools.com/jquery/" id="photogEmail">Contact Me</a>
+                    </div>
+
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
     <div id="Birthdays" class="tabcontent">
         <h3 class="eventname">Birthdays</h3>
         <div class="row">
@@ -333,105 +183,84 @@
             <div class="col-md-4">
                 <!-- Card Wider -->
                 <div class="card card-cascade wider mt-2 mb-3">
-
                     <!-- Card image -->
                     <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="https://images.unsplash.com/photo-1586702443651-f96e473303f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="Card image cap">
+                        <img class="card-img-top" src="images/lorna/man4.jpg" alt="Card image cap">
                         <a href="http://www.djparkervisionphotography.com/aaria-birthday-portfolio/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
-
                     <!-- Card content -->
                     <div class="card-body card-body-cascade text-center">
-
                         <!-- Title -->
                         <h4 class="card-title"><strong>Daniel Parker</strong></h4>
                         <!-- Subtitle -->
-                        <h5 class="blue-text pb-2"><strong>Birthday Photographer</strong></h5>
+                        <h5 class="blue-text pb-2"><strong>Below Ksh.20K</strong></h5>
                         <!-- Text -->
                         <p class="card-text">"Photography is an art of observation. It's about finding something interesting in an ordinary place... I've found it has little to do with the things you see and everything to do with the way you see them."</p>
-
-                        <!-- Linkedin -->
-                        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Twitter -->
-                        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-                        <!-- Dribbble -->
-                        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
                     </div>
-
                 </div>
                 <!-- Card Wider -->
             </div>
             <div class="col-md-4">
                 <!-- Card Wider -->
                 <div class="card card-cascade wider mt-2 mb-3">
-
                     <!-- Card image -->
                     <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="https://images.unsplash.com/photo-1587064712555-6e206484699b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="Card image cap">
+                        <img class="card-img-top" src="images/lorna/man7.jpg" alt="Card image cap">
                         <a href="http://www.acereelstudio.com/">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
-
                     <!-- Card content -->
                     <div class="card-body card-body-cascade text-center">
-
                         <!-- Title -->
-                        <h4 class="card-title"><strong>Acereel Studios</strong></h4>
+                        <h4 class="card-title"><strong>Robert Prince</strong></h4>
                         <!-- Subtitle -->
-                        <h5 class="blue-text pb-2"><strong>Birthday Photographer</strong></h5>
+                        <h5 class="blue-text pb-2"><strong>Ksh.30K-40K</strong></h5>
                         <!-- Text -->
-                        <p class="card-text">Acereel Studio is a family owned business located in Glenside, Pa. Darryl and Chante Bradley are the proud Owners of Acereel Studio. Our primary goal is to provide great customer service and an exceptional quality of product to
-                            clients.
-                        </p>
-                        <!-- Linkedin -->
-                        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Twitter -->
-                        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-                        <!-- Dribbble -->
-                        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-
+                        <p class="card-text">“There is one thing the photograph must contain, the humanity of the moment.” My primary goal is to provide great customer service and an exceptional quality of product to clients.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
                     </div>
-
                 </div>
                 <!-- Card Wider -->
             </div>
             <div class="col-md-2"></div>
         </div>
         <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-              <!-- Card Wider -->
-              <div class="card card-cascade wider mt-2 mb-3" id= "photogProfile">
-        
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
-                  </div>
-        
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade text-center">
-                      <!-- Title -->
-                      <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
-                      <!-- Subtitle -->
-                      <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
-                      <!-- Text -->
-                      <p class="card-text" id= "photogAbout"></p><br>
-                      <a href="" id= "photogPortfolio">View my portfolio</a><br>
-                      <a href="https://www.w3schools.com/jquery/" id= "photogEmail">Contact Me</a>
-                  </div>
-        
-              </div>
-              <!-- Card Wider -->
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3" id="photogProfile">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
+                        <!-- Text -->
+                        <p class="card-text" id="photogAbout"></p>
+                        <br>
+                        <a href="" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="https://www.w3schools.com/jquery/" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2"></div>
         </div>
     </div>
-
     <div id="Graduations" class="tabcontent">
         <h3 class="eventname">Graduations</h3>
         <div class="row">
@@ -439,101 +268,168 @@
             <div class="col-md-4">
                 <!-- Card Wider -->
                 <div class="card card-cascade wider mt-2 mb-3">
-
                     <!-- Card image -->
                     <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/lorna/woman3.jpg" alt="Card image cap">
                         <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
-
                     <!-- Card content -->
                     <div class="card-body card-body-cascade text-center">
-
                         <!-- Title -->
-                        <h4 class="card-title"><strong>Alison Belmont</strong></h4>
+                        <h4 class="card-title"><strong>Jessica Wanja</strong></h4>
                         <!-- Subtitle -->
-                        <h5 class="blue-text pb-2"><strong>Graffiti Artist</strong></h5>
+                        <h5 class="blue-text pb-2"><strong>Ksh.40K-50K</strong></h5>
                         <!-- Text -->
                         <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
-
-                        <!-- Linkedin -->
-                        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Twitter -->
-                        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-                        <!-- Dribbble -->
-                        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
                     </div>
-
                 </div>
                 <!-- Card Wider -->
             </div>
             <div class="col-md-4">
                 <!-- Card Wider -->
                 <div class="card card-cascade wider mt-2 mb-3">
-
                     <!-- Card image -->
                     <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/lorna/woman2.jpg" alt="Card image cap">
                         <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
-
                     <!-- Card content -->
                     <div class="card-body card-body-cascade text-center">
-
                         <!-- Title -->
                         <h4 class="card-title"><strong>Alison Belmont</strong></h4>
                         <!-- Subtitle -->
-                        <h5 class="blue-text pb-2"><strong>Graffiti Artist</strong></h5>
+                        <h5 class="blue-text pb-2"><strong>Above Ksh.50K</strong></h5>
                         <!-- Text -->
                         <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
-
-                        <!-- Linkedin -->
-                        <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- Twitter -->
-                        <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-                        <!-- Dribbble -->
-                        <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
                     </div>
-
                 </div>
                 <!-- Card Wider -->
             </div>
             <div class="col-md-2"></div>
         </div>
         <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-              <!-- Card Wider -->
-              <div class="card card-cascade wider mt-2 mb-3" id= "photogProfile">
-        
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
-                  </div>
-        
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade text-center">
-                      <!-- Title -->
-                      <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
-                      <!-- Subtitle -->
-                      <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
-                      <!-- Text -->
-                      <p class="card-text" id= "photogAbout"></p><br>
-                      <a href="" id= "photogPortfolio">View my portfolio</a><br>
-                      <a href="https://www.w3schools.com/jquery/" id= "photogEmail">Contact Me</a>
-                  </div>
-        
-              </div>
-              <!-- Card Wider -->
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3" id="photogProfile">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
+                        <!-- Text -->
+                        <p class="card-text" id="photogAbout"></p>
+                        <br>
+                        <a href="" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="https://www.w3schools.com/jquery/" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div id="Weddings" class="tabcontent">
+        <h3 class="eventname">Weddings</h3>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="images/lorna/man1.jpg" alt="Card image cap">
+                        <a href="https://www.kevinmullinsphotography.co.uk/">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Kevin Mullins</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Below Ksh.20K</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">I’m a Wedding Photographer working throughout the UK, Europe and beyond and I tell stories through pictures. I want all my clients to have fun at their wedding, without worrying about the photography.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="images/lorna/man6.jpg" alt="Card image cap">
+                        <a href="https://albertpalmerphotography.com/portfolio/">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title"><strong>Albert Palmer</strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2"><strong>Ksh.20K-30K</strong></h5>
+                        <!-- Text -->
+                        <p class="card-text">I believe that getting married is the most incredible thing you can do. Giving yourself, completely and wholly to one another and being accepted by them is… well, something that can’t really be described with words. And that’s where I come in. I live in Bristol, but it doesn’t matter where you’re getting married, I’d love to meet and hear your story.</p>
+                        <a href="https://www.w3schools.com/" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="lw@gmail.com" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Card Wider -->
+                <div class="card card-cascade wider mt-2 mb-3" id="photogProfile">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                        <!-- Title -->
+                        <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
+                        <!-- Subtitle -->
+                        <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
+                        <!-- Text -->
+                        <p class="card-text" id="photogAbout"></p>
+                        <br>
+                        <a href="" id="photogPortfolio">View my portfolio</a>
+                        <br>
+                        <a href="https://www.w3schools.com/jquery/" id="photogEmail">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Card Wider -->
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2"></div>
         </div>
     </div>
     <!-- Tab content -->
@@ -541,5 +437,4 @@
     <script type="text/javascript" src="js/memento.js"></script>
     <!--SCRIPTS-->
 </body>
-
   
