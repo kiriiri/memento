@@ -108,7 +108,12 @@ body {
   border-top: none;
 }
 #find-padding{
-  padding-top: 2%;
+  padding-top: 1%;
+}
+.eventname{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 /* FIND A PHOTOGRAPHER */
 /* LIST */
@@ -186,3 +191,36 @@ input#listImage{ /*styling image input box*/
 }
 /* LIST */
 
+/*CONTACT US*/
+#contactus{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
+  background-image: url("../images/lorna/miss-zhang-jz0xIgcwyL0-unsplash.jpg");
+  background-size: cover;
+}
+#contactus img{
+  object-fit: cover;
+  height: auto;
+}
+#contactus .btn{
+  background: transparent !important;
+  color: white;
+  font-weight: bolder;
+  padding: 3%;
+  font-size: 20px;
+}
+h3{
+  padding-top: 3%;
+  font-size: 50px;
+  padding-bottom: 1%;
+}
+#message{
+  color: white;
+  background: transparent;
+}
+.contactcontent{
+  padding: 4%;
+}
+/*CONTACT US*/

@@ -54,31 +54,6 @@ function getListed(){
     localStorage.setItem("Email", JSON.stringify(photogEmail));
     var photogPortfolio = document.getElementById("listPortfolio").value;
     localStorage.setItem("Portfolio", JSON.stringify(photogPortfolio));
-    // Get a reference to the image element
-    var listImage = document.getElementById("listImage").value;
-    // Take action when the image has loaded
-    listImage.addEventListener("load", function () {
-        var imgCanvas = document.createElement("canvas"),
-            imgContext = imgCanvas.getContext("2d");
-
-        // Make sure canvas is as big as the picture
-        imgCanvas.width = listImage.width;
-        imgCanvas.height = listImage.height;
-
-        // Draw image into canvas element
-        imgContext.drawImage(listImage, 0, 0, listImage.width, listImage.height);
-
-        // Get canvas contents as a data URL
-        var imgAsDataURL = imgCanvas.toDataURL("image/png");
-
-        // Save image into localStorage
-        try {
-            localStorage.setItem("listImage", imgAsDataURL);
-        }
-        catch (e) {
-            console.log("Storage failed: " + e);
-        }
-    }, false); 
     if ((photogName != "") || (photogPortfolio != "") || (photogEmail != "")|| (photogAbout != "")){ //ensure all fields have inputs
     $("#photogProfile").show();
     //post data to card from localstorage
@@ -86,10 +61,10 @@ function getListed(){
     document.getElementById("photogCost").innerHTML = JSON.parse(localStorage.getItem("Cost"));
     var profileImage = JSON.parse(localStorage.getItem("listImage"));
     $("#photogImage").attr("src", profileImage);
-    //document.getElementById("photogImage").src= profileImage;
     document.getElementById("photogAbout").innerHTML = JSON.parse(localStorage.getItem("About"));
    // document.getElementById("photogPortfolio").innerHTML = JSON.parse(localStorage.getItem("Portfolio"));
     //document.getElementById("photogEmail").innerHTML = JSON.parse(localStorage.getItem("Email"));
+    //document.getElementById("photogImage").src= profileImage;
     var email = JSON.parse(localStorage.getItem("Email"));
     $("#photogEmail").attr("href", email);
     var portfolio = JSON.parse(localStorage.getItem("Portfolio"));

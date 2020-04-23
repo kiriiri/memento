@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="container-fluid listbackground">
+    <div class="container-fluid">
       <div class="row content">
         <div class="col-md-3"></div>
         <div class="col-md-6 border">
@@ -32,7 +32,7 @@
                 <div class="row container">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 container">
-                    <form id="listForm">
+                    <form id="listForm" action="find.html">
                         <div class="form-group">
                             <label for="listName">Full Name</label>
                             <input type="text" class="form-control" id="listName" placeholder="alphabetical letters only" pattern="[a-zA-Z ]+" required>
@@ -87,7 +87,7 @@
                         </div>
                         <div class="form-group textarea">
                             <label for="listAboutMe">Write something short about yourself...</label>
-                            <textarea type="text" id="listAbout" class="form-control" rows="8" placeholder="Here's what you need to know about me..." maxlength="280" required></textarea>
+                            <textarea type="text" id="listAbout" class="form-control" rows="8" placeholder="Here's what you need to know about me..." minlength= "100" maxlength="280" required></textarea>
                         </div>
                         <div id="error"></div><br>
                         <button type="submit" class="btn btn-outline-default" id="listMe">List me!</button>
@@ -149,7 +149,7 @@
           <!-- Card content -->
           <div class="card-body card-body-cascade text-center">
               <!-- Title -->
-              <h4 class="card-title" id="photogName"><strong></strong></h4>
+              <h4 class="card-title" id="photogName" style="font-size:bold;text-align:center;"><strong></strong></h4>
               <!-- Subtitle -->
               <h5 class="blue-text pb-2" id="photogCost"><strong></strong></h5>
               <!-- Text -->
