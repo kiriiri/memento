@@ -55,7 +55,7 @@ function getListed(){
     var photogPortfolio = document.getElementById("listPortfolio").value;
     localStorage.setItem("Portfolio", JSON.stringify(photogPortfolio));
     // Get a reference to the image element
-    var listImage = document.getElementById("listImage");
+    var listImage = document.getElementById("listImage").value;
     // Take action when the image has loaded
     listImage.addEventListener("load", function () {
         var imgCanvas = document.createElement("canvas"),
@@ -84,11 +84,16 @@ function getListed(){
     //post data to card from localstorage
     document.getElementById("photogName").innerHTML = JSON.parse(localStorage.getItem("Name"));
     document.getElementById("photogCost").innerHTML = JSON.parse(localStorage.getItem("Cost"));
-    //var profileImage = JSON.parse(localStorage.getItem("listImage"));
+    var profileImage = JSON.parse(localStorage.getItem("listImage"));
+    $("#photogImage").attr("src", profileImage);
     //document.getElementById("photogImage").src= profileImage;
     document.getElementById("photogAbout").innerHTML = JSON.parse(localStorage.getItem("About"));
-    document.getElementById("photogPortfolio").innerHTML = JSON.parse(localStorage.getItem("Portfolio"));
-    document.getElementById("photogEmail").innerHTML = JSON.parse(localStorage.getItem("Email"));
+   // document.getElementById("photogPortfolio").innerHTML = JSON.parse(localStorage.getItem("Portfolio"));
+    //document.getElementById("photogEmail").innerHTML = JSON.parse(localStorage.getItem("Email"));
+    var email = JSON.parse(localStorage.getItem("Email"));
+    $("#photogEmail").attr("href", email);
+    var portfolio = JSON.parse(localStorage.getItem("Portfolio"));
+    $("#photogPortfolio").attr("href", portfolio);
     } else { //display error message if any field is empty
       document.getElementById("error").innerHTML = "Please fill in all fields!";
       document.getElementById("error").style.color = "red"

@@ -1,4 +1,7 @@
-    /* LANDING PAGE */
+body {
+  font-family: Roboto,sans-serif;
+}
+/* LANDING PAGE */
     div#brand-name{
       font-family: 'Qwigley', cursive;
       font-size: 7vw;
@@ -47,27 +50,22 @@
     }
     /*LANDING PAGE */
     /*ABOUT US */
-    
-    #about {
-        width: 100%;
-        height: 600px;
-        background-image: url('../images/stacy/about.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        border: 1px solid black;
+    .aboutcontainer{
+      padding: 0;
     }
-    
-    .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: medium;
+    .aboutleft{
+      background-image: url('../images/lorna/ailbhe-flynn-jkZs3Oi9pq0-unsplash.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
     }
-    
+    .aboutcontent{
+      padding: 8%;
+      padding-top: 6%;
+      text-align: center;
+    }    
     h3 {
         text-align: center;
+        font-size: 40px;
     }
     /*ABOUT US */
 /* FIND A PHOTOGRAPHER */
