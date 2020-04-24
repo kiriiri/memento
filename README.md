@@ -12,7 +12,7 @@ This is a website for Memento, a photography website that understands the need f
 
 ![landing](images/lorna/landing.png)
 
-## Need an photographer for an upcoming event?
+## Need a photographer for an upcoming event?
 Here's what you need to do:
 - Visit the website at https://lornakamau.github.io/memento/
 - Click on the "Find a Photographer" navigation button
@@ -20,7 +20,7 @@ Here's what you need to do:
 - Once you settle on one, click on the "Contact Me" link on their respective card to send them a booking email
 - That was easy right? Be sure to recommend us to your friends and family!
 
-## Are you a photographer who just wants to put themselves out there? List with us!
+## Are you a photographer who wants to put themselves out there? List with us!
 Here's what you need to do:
 - Visit the website at https://lornakamau.github.io/memento/
 - Click on the "Be listed" navigation button
