@@ -1,74 +1,68 @@
 body {
-  font-family: Roboto,sans-serif;
+  font-family: 'Roboto' ,sans-serif;
 }
 /* LANDING PAGE */
-    div#brand-name{
-      font-family: 'Qwigley', cursive;
-      font-size: 7vw;
-      display: inline;
-      max-height: 2%;
-    }
-    .navbar .container{
-      margin: 0;
-      height: 45px; /*set height of navbar*/
-    }
-    @media (min-width: 800px) and (max-width: 850px) { /* set features of nav bar when it collapses */
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-        height: 45px;
-      }
-    }
-    .carousel-item .view { /* style all carousel images */
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .carousel-item .landing1 {
-        background-image: url("../images/lorna/wedding.jpg");
-    }
-    
-    .carousel-item .landing2 {
-        background-image: url("../images/lorna/babyshower4.png");
-    }
-    
-    .carousel-item .landing3 {
-        background-image: url("../images/lorna/birthday5.jpg");
-    }
-    
-    .carousel-item .landing4 {
-        background-image: url("../images/lorna/woman-throwing-confetti-1139317.jpg");
-    }
-    
-    .carousel-inner h1 {
-        /* styling the catch phrase */
-        font-family: 'Noto Serif', serif;
-        padding-top: 60%;
-        font-weight: bold;
-        line-height: 65px;
-        font-size: 3vw;
-        text-align: center;
-    }
-    /*LANDING PAGE */
-    /*ABOUT US */
-    .aboutcontainer{
-      padding: 0;
-    }
-    .aboutleft{
-      background-image: url('../images/lorna/ailbhe-flynn-jkZs3Oi9pq0-unsplash.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .aboutcontent{
-      padding: 8%;
-      padding-top: 6%;
-      text-align: center;
-    }    
-    .abouthead {
-        text-align: center;
-        font-size: 40px;
-        font-weight: bold;
-    }
-    /*ABOUT US */
+div#brand-name{
+  font-family: 'Qwigley', cursive;
+  font-size: 7vw;
+  display: inline;
+  max-height: 2%;
+}
+.navbar .container{
+  margin: 0;
+  height: 45px; /*set height of navbar*/
+}
+@media (min-width: 800px) and (max-width: 850px) { /* set features of nav bar when it collapses */
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+    height: 45px;
+  }
+}
+.carousel-item .view { /* style all carousel images */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item .landing1 {
+    background-image: url("../images/lorna/wedding.jpg");
+}
+.carousel-item .landing2 {
+    background-image: url("../images/lorna/babyshower4.png");
+}
+.carousel-item .landing3 {
+    background-image: url("../images/lorna/birthday5.jpg");
+}
+.carousel-item .landing4 {
+    background-image: url("../images/lorna/woman-throwing-confetti-1139317.jpg");
+}
+.carousel-inner h1 {
+    /* styling the catch phrase */
+    font-family: 'Noto Serif', serif;
+    padding-top: 60%;
+    line-height: 65px;
+    font-size: 3vw;
+    text-align: center;
+}
+/*LANDING PAGE */
+/*ABOUT US */
+.aboutcontainer{
+  padding: 0;
+}
+.aboutleft{
+  background-image: url('../images/lorna/ailbhe-flynn-jkZs3Oi9pq0-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutcontent{
+  padding: 8%;
+  padding-top: 6%;
+  text-align: center;
+}    
+.abouthead {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*ABOUT US */
 /* FIND A PHOTOGRAPHER */
 /* Style the tab */
 .tab {
@@ -78,7 +72,6 @@ body {
   background-color: #f1f1f1;
   border-radius: 5px;
 }
-
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
@@ -89,17 +82,14 @@ body {
   padding: 14px 25px;
   transition: 0.3s;
 }
-
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
-
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #ccc;
 }
-
 /* Style the tab content */
 .tabcontent {
   padding: 6px 12px;
@@ -189,7 +179,6 @@ input#listImage{ /*styling image input box*/
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 /* LIST */
-
 /*CONTACT US*/
 #contactus{
   width: 100%;
