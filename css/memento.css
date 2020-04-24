@@ -68,7 +68,6 @@ div#brand-name{
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  width: 82%;
   background-color: #f1f1f1;
   border-radius: 5px;
 }
@@ -79,7 +78,7 @@ div#brand-name{
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 25px;
+  padding: 2%;
   transition: 0.3s;
 }
 /* Change background color of buttons on hover */
